@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- Basic Setups -->
+        <!-- Information about this page and scripts references-->
         <meta charset="utf-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Project Template</title>
+
+        <link rel="stylesheet" href="css/Styless.css">
     </head>
 
     <body>
-        <h1>Project Template</h1>
-        <h2>Simple project template</h2>
-        <h3>Simple project template</h3>
-        <h4>Simple project template</h4>
-        <h5>Simple project template</h5>
-        <h6>Simple project template</h6>
+        <div class="tittleTexts">
+            <h1>Project Template</h1>
+            <h2>Simple project template</h2>
+            <h3>Simple project template</h3>
+            <h4>Simple project template</h4>
+            <h5>Simple project template</h5>
+            <h6>Simple project template</h6>
+        </div>
+        
         This is a HTML <b> content </b> <p>UTF-8-Entity &hearts; number &#9312</p>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -30,12 +35,13 @@
         
         <hr>
         Diferentes forms:
-        <b>BOLD</b> <i>ITALIC</i> <u>UNDERLINE</u> <em>EMB</em> <strong>STRONG</strong> <a href="https://duckduckgo.com/" target="_blank">link tag</a> 
+        <b>BOLD</b> <i>ITALIC</i> <u>UNDERLINE</u> <em>Emphazise</em> <strong>STRONG</strong> <a href="https://duckduckgo.com/" target="_blank">link tag</a> 
         <hr>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/480px-HTML5_logo_and_wordmark.svg.png" border="1">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/480px-HTML5_logo_and_wordmark.svg.png" width="35%" border="1">
 
-        <img src="img/html.png">
+        <img src="img/html.png" width="35%" id="duckimg">
 
+        <!-- List with circles-->
         <ul>
             <li>Item 1
                 <ul>
@@ -47,6 +53,13 @@
             <li>Item 3</li>
             <li>Item 4</li>
         </ul>
+
+        <!-- List with number (ordered)-->
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+        </ol>
+
 
         <table border="2" cellpadding="5">
             <tr>
@@ -73,7 +86,17 @@
             </tr>
         </table>
 
-
+        <ul>
+            <li> AAA </li>  
+            <li> BBB </li>  
+            <ul> <li> CCC </li>  
+            </ul>  
+            <li> DDD </li>  
+            <ul> <li> EEE </li>    
+            <li> FFF </li>  
+            </ul>  
+            <li> GGG </li>
+            </ul>
 
     </body>  
 </html>
